@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/singlerow"
+    android:layout_margin="10dp"
+    >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:id="@+id/itemprofile"
+        android:src="@drawable/kindpng_211191"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Header"
+        android:layout_below="@+id/itemprofile"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/itemheader"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_marginTop="5sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/itemheader"
+        android:layout_below="@+id/itemprofile"
+        android:id="@+id/itemprice"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

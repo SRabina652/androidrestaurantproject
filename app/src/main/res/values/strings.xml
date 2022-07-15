@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">userRegistration</string>
+    <string name="email">Enter Email</string>
+    <string name="pwd">Enter Password</string>
+    <string name="desc">This is the description part. Here the alergy information and the description about the given food item goes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
