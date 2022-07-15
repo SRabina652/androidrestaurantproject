@@ -6,11 +6,11 @@ import java.util.List;
 
 public class ParentModel {
     private String parentTitle;
-    List<DataHolder> childmodel;
+    List<DataHolder> childmodellist;
 
     public ParentModel(String parentTitle, List<DataHolder> childmodel) {
         this.parentTitle = parentTitle;
-        this.childmodel = childmodel;
+        this.childmodellist = childmodel;
     }
 
     public String getParentTitle() {
@@ -22,10 +22,10 @@ public class ParentModel {
     }
 
     public List<DataHolder> getChildmodel() {
-        return childmodel;
+        return childmodellist;
     }
 
     public void setChildmodel(List<DataHolder> childmodel) {
-        this.childmodel = childmodel;
+        this.childmodellist = childmodel;
     }
 }
